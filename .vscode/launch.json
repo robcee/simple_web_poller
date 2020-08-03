@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File, Weather, Repeats",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "https://weather.gc.ca/rss/city/nb-36_e.xml", "-f 10"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File, Weather",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "https://weather.gc.ca/rss/city/nb-36_e.xml"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
